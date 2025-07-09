@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Interfaz Prototipo</title>
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
   <header class="header">
     <h1>Mi Sitio Web</h1>
   </header>
-  <main class="container">
-    <section>
+  <main class="main">
+    <section class="container">
       <h2>Bienvenido a Mi Sitio Web</h2>
       <p>Este es un modelo de cajas para seguir aprendiendo</p>
       <div class="button-group">
@@ -19,9 +23,89 @@
         <button class="btn">Botón 2</button>
       </div>
     </section>
+    <section>
+      <div class="contenedor">
+        <div class="titulo">
+          <h2>Lugares Destacados</h2>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="../img/bariloche.jpg" alt="Imagen de la tarjeta">
+            <h3>Bariloche</h3>
+          </div>
+          <div class="card">
+            <img src="../img/boston.jpg" alt="Imagen de la tarjeta">
+            <h3>Boston</h3>
+          </div>
+          <div class="card">
+            <img src="../img/brooklyn.JPG" alt="Imagen de la tarjeta">
+            <h3>Puente de brooklyn</h3>
+          </div>
+          <div class="card">
+            <img src="../img/chalten.jpg" alt="Imagen de la tarjeta">
+            <h3>El Chalten</h3>
+          </div>
+          <div class="card">
+            <img src="../img/coyhaique.jpg" alt="Imagen de la tarjeta">
+            <h3>Coyhaique</h3>
+          </div>
+          <div class="card">
+            <img src="../img/hornopiren.jpg" alt="Imagen de la tarjeta">
+            <h3>Hornopiren</h3>
+          </div>
+          <div class="card">
+            <img src="../img/la-paz.jpg" alt="Imagen de la tarjeta">
+            <h3>La Paz</h3>
+          </div>
+          <div class="card">
+            <img src="../img/perito-moreno.jpg" alt="Imagen de la tarjeta">
+            <h3>Perito Moreno</h3>
+          </div>
+          <div class="card">
+            <img src="../img/queulat.jpg" alt="Imagen de la tarjeta">
+            <h3>Queulat</h3>
+          </div>
+          <div class="card">
+            <img src="../img/salar.jpg" alt="Imagen de la tarjeta">
+            <h3>Salar</h3>
+          </div>
+          <div class="card">
+            <img src="../img/times.JPG" alt="Imagen de la tarjeta">
+            <h3>Times Square</h3>
+          </div>
+          <div class="card">
+            <img src="../img/winnipeg.JPG" alt="Imagen de la tarjeta">
+            <h3>Winnipeg</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="form-container">
+        <h2>Contacto</h2>
+        <form>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+          <label for="message">Comentario:</label>
+          <textarea id="message" name="message" placeholder="Ingresa tu comentario" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
   </main>
   <footer class="footer">
-    <p>© 2025 Mi Sitio</p>
-  </footer>
+  <div class="social-media">
+    <div class="footer__left">
+      <p>© 2025 Mi Sitio</p>
+    </div>
+    <div class="footer__right">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
